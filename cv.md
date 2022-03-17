@@ -1,23 +1,31 @@
 # CV
 ## Viktoriia Volkova
 
-###Contacts:
+### Contacts:
 * GitHub: *@Vi-user*
 * discord nick:  _Vika Volkova(@Vi-user)_
 * location: ___RF, Saint-Petersburg___
+
 ---
+
 ## Work Experience:
+
 * [Blog](https://gitlab.com/angry_devops/neophyts_notes) written with Python, Flask framework 
+
 ---
-##Tech Skills:
+
+## Tech Skills:
 Basic knowledge:
 * JavaScript
 * PHP, Codeigniter
 * Python, Flask
 * HTML5, CSS3
 * Bootstrap
+
 ---
-##Code example:
+
+### Code example:
+
 ```
 Cata task: Moves in squared strings (I):
 function vertMirror(strng) {
@@ -39,15 +47,19 @@ function oper(fct, s) {
     return fct(s);
 }
 ```
+
 ---
-##Education:
+
+## Education:
 Online classes:
 * [JavaScript Basics][1], Udacity, 2021
 * [PHP. Level-1 web development basics. Level-2 professional web development][2], GeekBrains, 2021
 * [Basics of programming][3], GeekBrains, 2021
 
 ---
-###Additional information:
+
+### Additional information:
+
 * 11.2020 - first steps in programming, Python syntax.
 * 03.2021 - started writing [fullstack app][my_blog] with Flask Mega-Tutorial by Miguel Grinberg.
 * 06.2021 - got an internship at a company where I was given the opportunity to learn from small tasks in an already existing project, based on PHP and Codeigniter3.
