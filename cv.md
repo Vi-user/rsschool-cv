@@ -55,6 +55,7 @@ Online classes:
 * 03.2021 - started writing [fullstack app][my_blog] with Flask Mega-Tutorial by Miguel Grinberg.
 * 06.2021 - got an internship at a company where I was given the opportunity to learn from small tasks in an already existing project, based on PHP and Codeigniter3.
 * 11.2021 - begin to study JavaScript by online-courses, documentation, marathons, intensives.
+
 > A samurai has no goal, only a path
 
 It's just a joke =) 
