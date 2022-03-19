@@ -1,1 +1,1 @@
-to see CV:	https://vi-user.github.io/rsschool-cv/cv
+https://vi-user.github.io/rsschool-cv/
