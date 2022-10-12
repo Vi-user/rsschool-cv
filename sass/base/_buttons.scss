@@ -1,0 +1,15 @@
+.button {
+  border: 2px solid green;
+  border-radius: 5px;
+  padding: 10px 15px;
+  background: lightsalmon;
+  cursor: pointer;
+  @include font($size: 2rem, $height: 3rem, $weight: bold)
+}
+
+.button_download{
+  &:after {
+    content: url("../img/icons/download.svg");
+    padding-left: 10px;
+  }
+}

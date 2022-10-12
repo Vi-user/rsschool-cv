@@ -14,3 +14,15 @@ body {
 main {
   margin-top: 90px;
 }
+
+h2 {
+  @include font($size: 3.4rem, $height: 4.6rem)
+}
+
+h3 {
+  @include font($size: 2.4rem, $height: 3.4rem)
+}
+
+p {
+  @include font($size: 1.8rem, $height: 2.4rem, $weight: normal)
+}
