@@ -1,0 +1,17 @@
+.education__title {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 50px;
+}
+.education-list__item {
+  &:before {
+    content: url("../img/icons/pencil.svg");
+    padding-right: 10px;
+  }
+}
