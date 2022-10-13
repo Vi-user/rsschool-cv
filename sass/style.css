@@ -447,6 +447,18 @@ p {
   background: url("../img/icons/moon.svg") no-repeat center;
   background-size: contain;
 }
+.icon_github {
+  background: url("../img/icons/github.svg") no-repeat center;
+  background-size: contain;
+}
+.icon_gitlab {
+  background: url("../img/icons/gitlab.svg") no-repeat center;
+  background-size: contain;
+}
+.icon_telegram {
+  background: url("../img/icons/telegram.svg") no-repeat center;
+  background-size: contain;
+}
 
 .button {
   border: 2px solid green;
@@ -566,6 +578,16 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.footer-navigation {
+  justify-content: center;
+  gap: 70px;
+}
+
+.footer-navigation__item {
+  display: flex;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
