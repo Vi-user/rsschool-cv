@@ -410,7 +410,7 @@ body {
 }
 
 main {
-  margin-top: 90px;
+  margin-top: 50px;
 }
 
 h2 {
@@ -487,6 +487,7 @@ p {
 
 .about__container {
   display: flex;
+  align-items: center;
   padding: 20px;
 }
 
@@ -515,6 +516,37 @@ p {
   margin: 20px;
 }
 
+.skills__wrapper {
+  padding: 30px 0;
+}
+
+.skills-list {
+  padding-top: 50px;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  margin: 20px auto;
+}
+
+.skills-list_item {
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  font-weight: normal;
+  font-style: normal;
+  width: 30%;
+}
+.skills-list_item:before {
+  content: url("../img/icons/check.svg");
+  padding-right: 10px;
+}
+
+.svg_fill {
+  fill: green;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
@@ -527,7 +559,7 @@ p {
   top: 0;
   left: 0;
   width: 100%;
-  padding: 15px 0;
+  z-index: 2;
 }
 
 .header__wrapper {
