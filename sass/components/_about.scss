@@ -33,9 +33,12 @@
   justify-content: space-evenly;
 }
 
-//.about__profession {
-//  margin: 50px 0;
-//}
+.about__greeting {
+  &:after {
+    content: url("../img/icons/emoji-smile-upside-down.svg");
+    padding-left: 10px;
+  }
+}
 
 .about__buttons {
   display: flex;
