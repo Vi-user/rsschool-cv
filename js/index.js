@@ -17,3 +17,17 @@ window.addEventListener('scroll', showHideScrollBtn)
 // }
 //
 // scrollBtn.addEventListener('click', scrollUp)
+
+
+//day-night theme
+const themeIcon = document.querySelector('.theme-icon')
+
+const changeTheme = () => {
+
+    document.body.classList.toggle('night-theme')
+    document.querySelector('.header').classList.toggle('night-theme')
+    themeIcon.classList.toggle('icon_moon')
+    themeIcon.classList.toggle('icon_sun')
+}
+
+themeIcon.addEventListener('click', changeTheme)

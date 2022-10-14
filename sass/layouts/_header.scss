@@ -4,10 +4,17 @@
   left: 0;
   width: 100%;
   z-index: 5;
+  background-color: #F2F3F4;
 }
 
 .header__wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+
+.night-theme {
+  background-color: #323637;
+  color: #F2F3F4;
 }
