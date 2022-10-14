@@ -23,7 +23,6 @@ window.addEventListener('scroll', showHideScrollBtn)
 const themeIcon = document.querySelector('.theme-icon')
 
 const changeTheme = () => {
-
     document.body.classList.toggle('night-theme')
     document.querySelector('.header').classList.toggle('night-theme')
     themeIcon.classList.toggle('icon_moon')

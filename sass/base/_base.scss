@@ -37,3 +37,7 @@ h3 {
 p {
   @include font($size: 1.8rem, $height: 2.4rem, $weight: normal)
 }
+
+.shadow {
+  box-shadow: -5px -5px 10px #2a333d, 9px 7px 20px #475462;
+}

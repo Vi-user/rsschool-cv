@@ -3,3 +3,10 @@
   gap: 3rem;
   font-weight: bold;
 }
+
+.navigation__link {
+  transition: all 0.5s ease;
+  &:hover {
+    color: lightsalmon;
+  }
+}

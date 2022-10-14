@@ -1,17 +1,43 @@
 .button {
-  border: 2px solid green;
   border-radius: 5px;
   padding: 10px 15px;
   background: lightsalmon;
   cursor: pointer;
   text-align: center;
-  @include font($size: 1.5rem, $height: 2rem, $weight: bold)
+  @include font($size: 1.5rem, $height: 2rem, $weight: bold);
+  position: relative;
+  z-index: 1;
+  &:before{
+    content: '';
+    position: absolute;
+    z-index:0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0;
+    border-radius: 5px;
+    background: -webkit-linear-gradient(90deg,#f8d2c7,#ed9277,#995e4d); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(90deg,#f8d2c7,#ed9277,#995e4d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition-timing-function: linear;
+    transition-duration: 250ms;
+  }
+  &:hover::before {
+    width: 100%;
+  }
 }
+
+.button span {
+  position: relative;
+  z-index: 3;
+}
+
 
 .button_download{
   &:after {
     content: url("../img/icons/download.svg");
     padding-left: 10px;
+    position: relative;
+    z-index: 3;
   }
 }
 
