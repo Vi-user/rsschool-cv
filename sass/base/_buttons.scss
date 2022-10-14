@@ -14,3 +14,21 @@
     padding-left: 10px;
   }
 }
+
+.scroll-btn {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  width: 45px;
+  height: 45px;
+  //border-radius: 50%;
+  background: url("../img/icons/up-arrow.svg") no-repeat;
+  display: none;
+  cursor: pointer;
+  &:hover {
+    transform: scale(1.1);
+  }
+  &_visible {
+    display: block;
+  }
+}

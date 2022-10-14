@@ -487,6 +487,23 @@ p {
   padding-left: 10px;
 }
 
+.scroll-btn {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  width: 45px;
+  height: 45px;
+  background: url("../img/icons/up-arrow.svg") no-repeat;
+  display: none;
+  cursor: pointer;
+}
+.scroll-btn:hover {
+  transform: scale(1.1);
+}
+.scroll-btn_visible {
+  display: block;
+}
+
 .navigation {
   display: flex;
   gap: 3rem;
