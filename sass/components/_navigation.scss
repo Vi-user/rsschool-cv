@@ -9,4 +9,8 @@
   &:hover {
     color: lightsalmon;
   }
+  @media screen and (max-device-width: 600px) {
+    @include font($size: 2.8rem, $height: 3.2rem);
+    color: #F2F3F4;
+  }
 }

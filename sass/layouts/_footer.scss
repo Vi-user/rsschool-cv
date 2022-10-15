@@ -13,3 +13,9 @@
   display: flex;
   align-items: center;
 }
+
+.footer-navigation__link-name {
+  @media screen and (max-device-width: 600px) {
+    display: none;
+  }
+}

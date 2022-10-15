@@ -1,6 +1,8 @@
 html {
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
+  margin-right: calc(-1 * (100vw - 100%));
 }
 
 body {
@@ -13,16 +15,12 @@ body {
   color: #323637;
 }
 
-main {
-  margin-top: 50px;
+.scroll-lock {
+  overflow: hidden;
 }
 
-*[id]:before {
-  display: block;
-  content: " ";
-  margin-top: -50px;
-  height: 50px;
-  visibility: hidden;
+main {
+  margin-top: 50px;
 }
 
 h2 {
