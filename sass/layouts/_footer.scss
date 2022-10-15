@@ -1,0 +1,21 @@
+.footer-navigation {
+  //padding: 20px 0;
+  justify-content: center;
+  gap: 70px;
+}
+
+.footer-navigation__item {
+  display: flex;
+  align-items: center;
+}
+
+.footer-navigation__link {
+  display: flex;
+  align-items: center;
+}
+
+.footer-navigation__link-name {
+  @media screen and (max-device-width: 600px) {
+    display: none;
+  }
+}

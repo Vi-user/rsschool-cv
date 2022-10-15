@@ -1,1 +1,1 @@
-# rsschool-cv
+https://vi-user.github.io/rsschool-cv/
