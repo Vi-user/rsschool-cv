@@ -1,0 +1,26 @@
+.icon {
+  display: block;
+  width: 50px;
+  height: 50px;
+
+  &_sun {
+    background: url("../img/icons/sun.svg") no-repeat center;
+    background-size: 115px;
+  }
+  &_moon {
+    background: url("../img/icons/moon.svg") no-repeat center;
+    background-size: contain;
+  }
+  &_github {
+    background: url("../img/icons/github.svg") no-repeat center;
+    background-size: contain;
+  }
+  &_gitlab {
+    background: url("../img/icons/gitlab.svg") no-repeat center;
+    background-size: contain;
+  }
+  &_telegram {
+    background: url("../img/icons/telegram.svg") no-repeat center;
+    background-size: contain;
+  }
+}
