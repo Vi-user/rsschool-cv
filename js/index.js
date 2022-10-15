@@ -30,3 +30,13 @@ const changeTheme = () => {
 }
 
 themeIcon.addEventListener('click', changeTheme)
+
+
+//burger-menu
+const burger = document.querySelector('.burger');
+
+const showMenu = () => {
+    console.log('menu')
+}
+
+burger.addEventListener('click', showMenu)

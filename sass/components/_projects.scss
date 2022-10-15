@@ -29,6 +29,9 @@
   &:nth-child(even) {
     margin-right: 10%;
   }
+  @media screen and (max-device-width: 640px) {
+    height: 200px;
+  }
 }
 
 .project__description{

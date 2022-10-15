@@ -1,3 +1,38 @@
+%burger-line {
+  display: block;
+  position: absolute;
+  width: 100%;
+  background-color: #323637;
+  height: 2px;
+  border-radius: 5px;
+}
+
 .burger {
   display: none;
+  width: 25px;
+  height: 20px;
+  position: relative;
+  &:before {
+    content: '';
+    @extend %burger-line;
+    top: 0;
+    left: 0;
+  }
+  &:after {
+    content: '';
+    @extend %burger-line;
+    bottom: 0;
+    left: 0;
+  }
+  @media screen and (max-device-width: 600px) {
+    display: block;
+  }
 }
+
+.burger__line {
+  @extend %burger-line;
+  width: 50%;
+  top: 47%;
+  left: 25%;
+}
+

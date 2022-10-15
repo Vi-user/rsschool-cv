@@ -27,4 +27,10 @@
     //-webkit-mask: url("../img/icons/check-lg.svg") no-repeat 100%;
     //mask: url("../img/icons/check-lg.svg") no-repeat 100%;
   }
+  @media screen and (max-device-width: 680px) {
+    @include font($size: 1.8rem, $height: 1.4rem, $weight: 700);
+  }
+  @media screen and (max-device-width: 600px) {
+    width: 50%;
+  }
 }

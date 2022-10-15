@@ -12,11 +12,14 @@
   display: flex;
   align-items: center;
   padding: 20px;
+  @media screen and (max-device-width: 600px) {
+    flex-direction: column;
+  }
 }
 
 .about__photo-container {
   border-radius: 50%;
-  border: 1px solid red;
+  padding: 20px;
 }
 
 .about__photo {
@@ -32,6 +35,10 @@
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  @media screen and (max-device-width: 600px) {
+    margin-left: 0;
+    margin-top: 30px;
+  }
 }
 
 .about__greeting {
