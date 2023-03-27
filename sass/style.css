@@ -809,6 +809,11 @@ p {
   padding-right: 10px;
 }
 
+.certificate__link {
+  color: #282c80;
+  font-weight: bold;
+}
+
 .wrapper {
   max-width: 1200px;
   margin: 0 auto;
